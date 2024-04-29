@@ -160,12 +160,16 @@ form textarea{
 form button{
   color: white;
   font-weight: bold;
-  background: linear-gradient(90deg, rgb(44, 139, 255),rgb(223, 0, 200));
+  
+  /* ? */
+  background: linear-gradient(90deg,rgb(22, 135, 237)0%, rgb(210, 6, 152) 50%,  rgb(210, 6, 152) 100%);
+  background-size: 200% 100%;
+
   padding: 10px 100px;
   text-align: center;
 }
 form button:hover{
-  background: rgb(223, 0, 200);
+  background-position: 100% 0;
 }
 
 /* フッター */
