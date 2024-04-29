@@ -164,6 +164,9 @@ form button{
   padding: 10px 100px;
   text-align: center;
 }
+form button:hover{
+  background: rgb(223, 0, 200);
+}
 
 /* フッター */
 footer{
